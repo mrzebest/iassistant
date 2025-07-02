@@ -1,0 +1,10 @@
+# Ignore les clés/API/env
+.env
+
+# Dossiers temporaires
+__pycache__/
+*.pyc
+*.log
+
+# Environnement virtuel
+venv/
