@@ -40,9 +40,11 @@ def ask_gpt_with_context(question: str) -> str:
 
     # Événements
     event_context = "\n".join([
-        f"- {e['title']} ({e['date_start']} → {e['date_end']}) à {e['place']} | Catégorie : {e['category']}"
+        f"- [{e['title']}](/social/event/{e['id']}) - {e['date_start']} → {e['date_end']}, à {e['place']} (catégorie : {e['category']})"
         for e in events
     ])
+
+
 
     # Mentoring
     mentoring_context = "\n".join([
