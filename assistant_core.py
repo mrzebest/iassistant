@@ -9,7 +9,7 @@ load_dotenv()
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # URL du backend EasyCampus
-BASE_URL = "https://backend-production-ecb4.up.railway.app"
+BASE_URL = "https://backend-production-3740d.up.railway.app"
 
 # Fonctions API
 def get_all_events():
