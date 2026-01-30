@@ -111,7 +111,7 @@ Question : {question}
 
     # Appel à OpenAI
     response = client.chat.completions.create(
-        model="gpt-4-turbo",
+        model="gpt-4o-mini",
         messages=[
             {"role": "system", "content": "Tu es un assistant universitaire francophone. Réponds de façon claire et concise en français, uniquement en utilisant les données fournies."},
             {"role": "user", "content": prompt}
